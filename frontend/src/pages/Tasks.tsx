@@ -1,4 +1,5 @@
-import { useEffect, useState, useRef, KeyboardEvent, TouchEvent, MouseEvent } from "react";
+import { useEffect, useState, useRef } from "react";
+import type { KeyboardEvent, TouchEvent, MouseEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { toast } from "sonner";
 import api from "../api/api";
