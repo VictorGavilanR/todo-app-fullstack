@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { ChangeEvent, FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import api from "../api/api.js";
+import api from "../api/api";
 
 interface RegisterForm {
   username: string;
